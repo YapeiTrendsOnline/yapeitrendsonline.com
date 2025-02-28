@@ -1,0 +1,235 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo img {
+width: 60%; /* make the logo image responsive /
+height: auto; / maintain the logo image's aspect ratio */
+border-radius: 10px;
+}
+.logo {
+width: 80px; /* adjust the logo width /
+height: auto; / maintain the logo's aspect ratio /
+margin: 7px; / add some spacing around the logo */
+border-radius: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.chat-container {
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-messages {
+    padding: 20px;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.chat-input {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+#message-input {
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
+    width: 20%;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #555;
+}
+
+.cta {
+  background-color: #4CAF50; /* green background */
+  color: #fff; /* white text */
+  border: none; /* remove default border */
+  padding: 12px 24px; /* add padding */
+  font-size: 16px; /* set font size */
+  cursor: pointer; /* change cursor on hover */
+  border-radius: 50px; /* round border */
+  transition: background-color 0.3s ease; /* smooth transition */
+}
+
+.cta:hover {
+  background-color: #3e8e41; /* darker green on hover */
+}
+
+.hero {
+    background-image: url('yapeibridge3.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.about-image {
+    width: 20%;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.events {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.events h2 {
+    margin-top: 0;
+}
+
+.events ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.events li {
+    margin-bottom: 20px;
+}
+
+.events li h3 {
+    margin-top: 0;
+}
+
+.forum {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.forum h2 {
+    margin-top: 0;
+}
+
+.forum form {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    background-color: #f7f7f7;
+    padding: 20px;
+	border-radius: 12px;
+	
+}
+
+.gallery h2 {
+    margin-top: 0;
+}
+
+.gallery ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery li {
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.contact form {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.sp-scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+
+.sp-scroll-up:hover {
+  background-color: #555;
+}
+
+.sp-scroll-up.show {
+  display: block;
+}
+
+.fas fa-angle-up {
+  margin-right: 5px;
+}
